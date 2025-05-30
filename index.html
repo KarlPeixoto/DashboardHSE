@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Dashboard HSE - Turno Noturno</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Dashboard HSE</h1>
+        <p>Turno Noturno — 29/05/2025</p>
+        <button onclick="gerarPDF()">📄 Exportar PDF</button>
+    </header>
+
+    <main class="dashboard">
+        <section class="charts">
+            <div class="card">
+                <h2>Efetivo por Setor</h2>
+                <canvas id="graficoEfetivo"></canvas>
+            </div>
+
+            <div class="card">
+                <h2>Ocupação das Caçambas</h2>
+                <canvas id="graficoResiduos"></canvas>
+            </div>
+        </section>
+
+        
+        <section class="dds">
+            <div class="card">
+                <h2>Tema do DDSMS por Área</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Área</th>
+                            <th>Tema</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaDDSMS"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</body>
+
+</html>
