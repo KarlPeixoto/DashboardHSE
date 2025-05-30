@@ -30,12 +30,9 @@ const ddsmsTemas = [
   { area: "BASE LOGÍSTICA", tema: "Elétrica" },
   { area: "BASE LOGÍSTICA", tema: "Atitude campeã" },
   { area: "APPLUS QUALITEC", tema: "Coleta seletiva" },
-  { area: "DOME - BASE LOGÍSTICA", tema: "xxx" },
   { area: "DOME - FIRING LINE", tema: "Prensamento de mãos" },
   { area: "APPLUS RTD", tema: "Trabalho em altura" },
-  { area: "TECLADO", tema: "xxx" },
   { area: "DOME - Carga Armazenamento", tema: "Atenção no ambiente de trabalho" },
-  { area: "GBJ", tema: "xxx" },
   { area: "GPS", tema: "Hidratação" },
   { area: "DOME - Carga Stalk", tema: "Atenção no ambiente de trabalho" },
   { area: "CRC E VANS", tema: "Isolamento de área" }
